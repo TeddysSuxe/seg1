@@ -104,7 +104,7 @@
                   "severity": "Medium",
                   "type": "Repudiation",
                   "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "mitigation": "Firma digital\nRegistro de auditoría",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 2,
