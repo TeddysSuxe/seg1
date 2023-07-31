@@ -123,6 +123,9 @@
               "height": 70
             },
             "attrs": {
+              "text": {
+                "text": "Login"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1,
@@ -135,7 +138,7 @@
             "id": "4898c1bf-28fd-4883-90f4-f93253d3fd17",
             "data": {
               "type": "tm.Process",
-              "name": "Process",
+              "name": "Login",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
