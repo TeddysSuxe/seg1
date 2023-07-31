@@ -118,8 +118,8 @@
           },
           {
             "position": {
-              "x": 870,
-              "y": 230
+              "x": 880,
+              "y": 220
             },
             "size": {
               "width": 120,
@@ -159,13 +159,16 @@
           {
             "position": {
               "x": 659,
-              "y": 120
+              "y": 90
             },
             "size": {
-              "width": 80,
-              "height": 80
+              "width": 110,
+              "height": 110
             },
             "attrs": {
+              "text": {
+                "text": "Aplicativo Web DIAA"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1,
@@ -178,7 +181,7 @@
             "id": "ef55cd1e-27b3-4857-a18e-56dbd2d4b3ea",
             "data": {
               "type": "tm.Process",
-              "name": "Process",
+              "name": "Aplicativo Web DIAA",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -310,6 +313,9 @@
               "threats": []
             },
             "id": "a9fe6879-6bcb-466e-8a35-8b595c2ca3aa",
+            "labels": [
+              "Loguin Request"
+            ],
             "source": {
               "x": 450,
               "y": 180
@@ -322,9 +328,6 @@
                 "x": 360,
                 "y": 173
               }
-            ],
-            "labels": [
-              "Loguin Request"
             ]
           },
           {
@@ -356,6 +359,9 @@
               "threats": []
             },
             "id": "04588d3a-0119-4a93-8385-91a26ffa113f",
+            "labels": [
+              "Login Response"
+            ],
             "source": {
               "cell": "6c04e1d4-e654-4b17-8e60-fa58d5f0d079"
             },
@@ -371,9 +377,6 @@
                 "x": 420,
                 "y": 200
               }
-            ],
-            "labels": [
-              "Login Response"
             ]
           },
           {
@@ -405,6 +408,9 @@
               "threats": []
             },
             "id": "d29cd126-51db-4ed3-823b-95b2d2a289a1",
+            "labels": [
+              "Login Request"
+            ],
             "source": {
               "cell": "4898c1bf-28fd-4883-90f4-f93253d3fd17"
             },
@@ -420,9 +426,6 @@
                 "x": 400,
                 "y": 290
               }
-            ],
-            "labels": [
-              "Login Request"
             ]
           },
           {
@@ -454,6 +457,9 @@
               "threats": []
             },
             "id": "88e6f0ad-cff7-4d9e-b7fc-5171c51235c6",
+            "labels": [
+              "Loguin Response"
+            ],
             "source": {
               "cell": "14d1ec70-a986-4077-b06e-d2fc44401927"
             },
@@ -465,9 +471,6 @@
                 "x": 390,
                 "y": 140
               }
-            ],
-            "labels": [
-              "Loguin Response"
             ]
           },
           {
@@ -499,6 +502,9 @@
               "threats": []
             },
             "id": "5b121a21-668b-45a9-81c2-af215cac1d53",
+            "labels": [
+              "Auth Request"
+            ],
             "source": {
               "cell": "ef55cd1e-27b3-4857-a18e-56dbd2d4b3ea"
             },
@@ -510,9 +516,6 @@
                 "x": 590,
                 "y": 130
               }
-            ],
-            "labels": [
-              "Auth Request"
             ]
           },
           {
@@ -544,6 +547,9 @@
               "threats": []
             },
             "id": "683504d8-51f2-483f-bf68-0616c8922ac5",
+            "labels": [
+              "Auth Response"
+            ],
             "source": {
               "cell": "4898c1bf-28fd-4883-90f4-f93253d3fd17"
             },
@@ -555,9 +561,6 @@
                 "x": 600,
                 "y": 200
               }
-            ],
-            "labels": [
-              "Auth Response"
             ]
           },
           {
@@ -589,6 +592,9 @@
               "threats": []
             },
             "id": "33bfa5d9-6a86-4de0-9ae5-e398eeb4ac0e",
+            "labels": [
+              "Auth Request"
+            ],
             "source": {
               "cell": "ca2bea4e-68c3-49f7-a89b-e9e2e4271e76"
             },
@@ -597,12 +603,9 @@
             },
             "vertices": [
               {
-                "x": 790,
-                "y": 130
+                "x": 860,
+                "y": 160
               }
-            ],
-            "labels": [
-              "Auth Request"
             ]
           },
           {
@@ -634,6 +637,9 @@
               "threats": []
             },
             "id": "5074736f-e4cb-487b-8bc9-25996a12f21c",
+            "labels": [
+              "Auth Response"
+            ],
             "source": {
               "cell": "ef55cd1e-27b3-4857-a18e-56dbd2d4b3ea"
             },
@@ -642,12 +648,9 @@
             },
             "vertices": [
               {
-                "x": 780,
+                "x": 810,
                 "y": 260
               }
-            ],
-            "labels": [
-              "Auth Response"
             ]
           },
           {
