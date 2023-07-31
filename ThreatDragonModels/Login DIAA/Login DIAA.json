@@ -322,12 +322,77 @@
             },
             "id": "d29cd126-51db-4ed3-823b-95b2d2a289a1",
             "source": {
-              "x": 380,
-              "y": 315
+              "cell": "4898c1bf-28fd-4883-90f4-f93253d3fd17"
             },
             "target": {
-              "x": 480,
-              "y": 415
+              "cell": "6c04e1d4-e654-4b17-8e60-fa58d5f0d079"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "targetMarker": {
+                  "name": "classic"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": false,
+              "threats": []
+            },
+            "id": "9a1f22d6-45ce-4847-a7a9-ef475653c652",
+            "source": {
+              "cell": "04bd2934-8e08-4c56-bd8c-7cf0da394357"
+            },
+            "target": {
+              "cell": "4898c1bf-28fd-4883-90f4-f93253d3fd17"
+            }
+          },
+          {
+            "position": {
+              "x": 198,
+              "y": 1
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "id": "04bd2934-8e08-4c56-bd8c-7cf0da394357",
+            "zIndex": 11,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Actor",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "providesAuthentication": false,
+              "hasOpenThreats": false,
+              "threats": []
             }
           }
         ]
