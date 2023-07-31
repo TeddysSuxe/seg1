@@ -38,8 +38,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "14d1ec70-a986-4077-b06e-d2fc44401927",
             "zIndex": 1,
+            "id": "14d1ec70-a986-4077-b06e-d2fc44401927",
             "data": {
               "type": "tm.Actor",
               "name": "Administradores (DIAA)",
@@ -72,8 +72,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "6c04e1d4-e654-4b17-8e60-fa58d5f0d079",
             "zIndex": 2,
+            "id": "6c04e1d4-e654-4b17-8e60-fa58d5f0d079",
             "data": {
               "type": "tm.Actor",
               "name": "Administradores (DIAA)",
@@ -81,6 +81,37 @@
               "outOfScope": false,
               "reasonOutOfScope": "",
               "providesAuthentication": false,
+              "hasOpenThreats": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 500,
+              "y": 190
+            },
+            "size": {
+              "width": 60,
+              "height": 60
+            },
+            "attrs": {
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "id": "4898c1bf-28fd-4883-90f4-f93253d3fd17",
+            "zIndex": 3,
+            "data": {
+              "type": "tm.Process",
+              "name": "Process",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "privilegeLevel": "",
               "hasOpenThreats": false,
               "threats": []
             }
