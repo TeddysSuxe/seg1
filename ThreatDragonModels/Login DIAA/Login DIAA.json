@@ -31,8 +31,8 @@
                 "text": "Profesores"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1,
+                "stroke": "red",
+                "strokeWidth": 3,
                 "strokeDasharray": null
               }
             },
@@ -42,13 +42,27 @@
             "id": "14d1ec70-a986-4077-b06e-d2fc44401927",
             "data": {
               "type": "tm.Actor",
-              "name": "Administradores (DIAA)",
+              "name": "Profesores",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "providesAuthentication": false,
-              "hasOpenThreats": false,
-              "threats": []
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "a2e5d3da-51e9-4317-88fd-7a1a41cf78ad",
+                  "title": "Spoofing",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Spoofing",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 1,
+                  "score": "3"
+                }
+              ]
             }
           },
           {
@@ -677,6 +691,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "Jorge Jara",
-    "threatTop": 0
+    "threatTop": 1
   }
 }
