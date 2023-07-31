@@ -1,0 +1,26 @@
+{
+  "version": "2.0.3",
+  "summary": {
+    "title": "Login DIAA",
+    "owner": "Teddy",
+    "description": "",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "Login DIAA",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.0.3",
+        "cells": []
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "Jorge Jara",
+    "threatTop": 0
+  }
+}
