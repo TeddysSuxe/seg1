@@ -96,7 +96,21 @@
               "reasonOutOfScope": "",
               "providesAuthentication": false,
               "hasOpenThreats": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "fbbe22a6-64da-4f47-9c49-20a94a9948ee",
+                  "title": "Repudiacion DIAA",
+                  "status": "Mitigated",
+                  "severity": "Medium",
+                  "type": "Repudiation",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 2,
+                  "score": "1"
+                }
+              ]
             }
           },
           {
@@ -691,6 +705,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "Jorge Jara",
-    "threatTop": 1
+    "threatTop": 2
   }
 }
