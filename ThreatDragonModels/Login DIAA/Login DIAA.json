@@ -617,7 +617,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Auth Response",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -639,6 +639,9 @@
                 "x": 600,
                 "y": 200
               }
+            ],
+            "labels": [
+              "Auth Response"
             ]
           },
           {
