@@ -118,14 +118,17 @@
           },
           {
             "position": {
-              "x": 850,
-              "y": 160
+              "x": 870,
+              "y": 230
             },
             "size": {
               "width": 120,
               "height": 60
             },
             "attrs": {
+              "text": {
+                "text": "BD"
+              },
               "topLine": {
                 "strokeWidth": 1,
                 "strokeDasharray": null
@@ -141,7 +144,7 @@
             "zIndex": 4,
             "data": {
               "type": "tm.Store",
-              "name": "Store",
+              "name": "BD",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -156,11 +159,11 @@
           {
             "position": {
               "x": 659,
-              "y": 140
+              "y": 120
             },
             "size": {
-              "width": 60,
-              "height": 60
+              "width": 80,
+              "height": 80
             },
             "attrs": {
               "body": {
